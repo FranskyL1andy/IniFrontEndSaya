@@ -6,7 +6,7 @@ import axios from "../../axiosConfig";
 import "./LoginPage.css";
 import Logo from "../../assets/images/Logo.png";
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "https://inibackendsaya-production.up.railway.app/api";
 
 const LoginPage = () => {
   const navigate = useNavigate();

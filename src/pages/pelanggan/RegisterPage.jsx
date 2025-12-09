@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./RegisterPage.css";
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "https://inibackendsaya-production.up.railway.app/api";
 
 const RegisterPage = () => {
   const navigate = useNavigate();

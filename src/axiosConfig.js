@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8000/api";
+axios.defaults.baseURL = "https://inibackendsaya-production.up.railway.app/api";
 
 const token = localStorage.getItem("token");
 if (token) {
