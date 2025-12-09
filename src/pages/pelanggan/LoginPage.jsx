@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import axios from "../../axiosConfig";
 import "./LoginPage.css";
-import Logo from "../../assets/images/Logo.png";
 
 const API_BASE = "https://inibackendsaya-production.up.railway.app/api";
 
@@ -118,7 +117,7 @@ const LoginPage = () => {
     <div className="login-bg">
       <div className="login-card">
         <div className="login-header">
-          <img src={Logo} alt="Salon Logo" className="login-logo" />
+          <img src="/images/logo.png" alt="Salon Logo" className="login-logo" />
           <h2 className="login-title">Aurora Salon</h2>
           <p className="login-subtitle">Beauty & Care</p>
         </div>
